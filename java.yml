@@ -7,5 +7,5 @@
       name: openjdk-8-jre
       state: present
     when: ansible_os_family =="Debian" 
-  - include_files: java2.yml
+  - include: java2.yml
   

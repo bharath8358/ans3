@@ -1,4 +1,5 @@
 ---
-- key: value
- myjavau: openjdk-8-jre
- myjavar: java-1.8.0-openjdk
+key: value
+
+myjavau: openjdk-8-jre
+myjavar: java-1.8.0-openjdk

@@ -4,8 +4,4 @@
 
 
 
-
-
-
-
-vars: vars_grp
+- key: value

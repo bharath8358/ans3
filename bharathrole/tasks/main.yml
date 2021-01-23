@@ -1,17 +1,15 @@
 ---
 # tasks file for bharathrole
-- hosts: all
-  become: yes
-  tasks:
-  - name: install java on ubuntu
-    apt:
-      name: "{{ myjavau }}"
-      state: present
-    when: ansible_os_family =="Debian"
-    ignore_errors: yes
 
-  - name: install java on ubuntu
-    yum:
-      name: "{{ myjavar }}"
-      state: present
-    when: ansible_os_family =="RedHat"
+- name: install java on ubuntu
+  apt:
+    name: "{{ myjavau }}"
+    state: present
+  when: ansible_os_family =="Debian"
+  ignore_errors: yes
+
+- name: install java on ubuntu
+  yum:
+    name: "{{ myjavar }}"
+    state: present
+  when: ansible_os_family =="RedHat"

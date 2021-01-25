@@ -1,4 +1,5 @@
 ---
 # tasks file for tomcatrole
 - include: java.yml
+   ignore_errors: yes
 - include: createuser.yml

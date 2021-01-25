@@ -1,0 +1,5 @@
+---
+- name: Ensure group tomcat
+  ansible.builtin.group:
+    name: tomcat
+    state: present  

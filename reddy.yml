@@ -1,5 +1,6 @@
 ---
 - hosts: all
   become: yes
-  roles: 
-    { role: tomcatrole }
+  tasks: 
+    roles: 
+      { role: tomcatrole }

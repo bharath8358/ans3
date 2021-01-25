@@ -1,4 +1,4 @@
 ---
 # tasks file for tomcatrole
-- include_tasks: java.yml
-- include_tasks: createuser.yml
+- include: java.yml
+- include: createuser.yml
